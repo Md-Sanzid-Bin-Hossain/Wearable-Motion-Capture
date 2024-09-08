@@ -45,3 +45,19 @@ Walking on Ground and Avoiding Obstacles
 [1] Trumble, M., Gilbert, A., Malleson, C., Hilton, A., & Collomosse, J. P. (2017, September). Total capture: 3D human pose estimation fusing video and inertial sensors. In BMVC (Vol. 2, No. 5, pp. 1-13).
 
 [2] Huang, Y., Kaufmann, M., Aksan, E., Black, M. J., Hilliges, O., & Pons-Moll, G. (2018). Deep inertial poser: Learning to reconstruct human pose from sparse inertial measurements in real time. ACM Transactions on Graphics (TOG), 37(6), 1-15.
+
+## Citation
+If you use this dataset or algorithm, please cite the following paper.
+
+``` bibtex
+@ARTICLE{10238692,
+  author={Moniruzzaman, Md and Yin, Zhaozheng and Hossain, Md Sanzid Bin and Choi, Hwan and Guo, Zhishan},
+  journal={IEEE Journal of Biomedical and Health Informatics}, 
+  title={Wearable Motion Capture: Reconstructing and Predicting 3D Human Poses From Wearable Sensors}, 
+  year={2023},
+  volume={27},
+  number={11},
+  pages={5345-5356},
+  keywords={Three-dimensional displays;Motion capture;Cameras;Sensors;Wearable sensors;Legged locomotion;Pose estimation;3D pose reconstruction;3d pose prediction;recurrent neural network;wearable sensing},
+  doi={10.1109/JBHI.2023.3311448}}
+
