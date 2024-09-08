@@ -15,7 +15,7 @@ This paper proposes a wearable motion capture approach that reconstructs and pre
 - A reconstruction module
 - A dynamic temporal attention-oriented recurrent decoder
 
-This network reconstructs 3D human poses over time and predicts future poses at subsequent time steps. To validate the approach, a new [**WearableMotionCapture**](https://drive.google.com/drive/folders/1JDQhw0I27_1TrkeqN7NUDGxrcIO3tT18?usp=sharing) dataset was created, combining IMU and camera data with musculoskeletal joint angle ground truth. The proposed AttRNet achieves high accuracy on the lower-limb WearableMotionCapture dataset and outperforms state-of-the-art methods on two public datasets: **DIP-IMU** and **TotalCapture**.
+This network reconstructs 3D human poses over time and predicts future poses at subsequent time steps. To validate the approach, a new [**WearableMotionCapture**](https://drive.google.com/drive/folders/1JDQhw0I27_1TrkeqN7NUDGxrcIO3tT18?usp=sharing) dataset was created, combining IMU and camera data with musculoskeletal joint angle ground truth. The proposed AttRNet achieves high accuracy on the lower-limb WearableMotionCapture dataset and outperforms state-of-the-art methods on two public datasets: **DIP-IMU**[1] and **TotalCapture**[2].
 
 
 ## Dataset
@@ -39,3 +39,8 @@ Walking on Slope
 Walking on Ground and Avoiding Obstacles
 
 ![obstacles_with_third_person_view](https://user-images.githubusercontent.com/59179258/135167429-92b11cd0-feaa-452e-841a-e414b59c67de.gif)
+
+
+## References
+[1] Trumble, M., Gilbert, A., Malleson, C., Hilton, A., & Collomosse, J. P. (2017, September). Total capture: 3D human pose estimation fusing video and inertial sensors. In BMVC (Vol. 2, No. 5, pp. 1-13).
+[2] Huang, Y., Kaufmann, M., Aksan, E., Black, M. J., Hilliges, O., & Pons-Moll, G. (2018). Deep inertial poser: Learning to reconstruct human pose from sparse inertial measurements in real time. ACM Transactions on Graphics (TOG), 37(6), 1-15.
